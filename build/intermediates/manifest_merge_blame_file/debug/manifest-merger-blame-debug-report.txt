@@ -1,0 +1,336 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.panglead"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:25:5-67
+11-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:25:22-64
+12
+13    <!-- 必要权限，解决安全风险漏洞，发送和注册广播事件需要调用带有传递权限的接口 -->
+14    <permission
+15        android:name="com.example.panglead.openadsdk.permission.TT_PANGOLIN"
+15-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:28:22-86
+16        android:protectionLevel="signature" />
+16-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:29:9-44
+17
+18    <uses-permission android:name="com.example.panglead.openadsdk.permission.TT_PANGOLIN" />
+18-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:31:22-86
+19    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+19-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:14:5-76
+19-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:14:22-73
+20
+21    <queries>
+21-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:20:5-28:15
+22        <intent>
+22-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:21:9-27:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:22:13-65
+23-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:22:21-62
+24
+25            <category android:name="android.intent.category.BROWSABLE" />
+25-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:24:13-74
+25-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:24:23-71
+26
+27            <data android:scheme="https" />
+27-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:26:13-44
+27-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:26:19-41
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:30:5-79
+31-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:30:22-76
+32    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+32-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:31:5-75
+32-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:31:22-72
+33    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+33-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:32:5-81
+33-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:32:22-78
+34    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+35
+36    <application
+36-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:6:5-23:19
+37        android:name="com.example.panglead.DemoApplication"
+37-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:7:9-40
+38        android:allowBackup="true"
+38-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:8:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.5.0] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:9:9-43
+43        android:label="@string/app_name"
+43-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:10:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:11:9-54
+45        android:supportsRtl="true"
+45-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:12:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.PangleAD" >
+47-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:13:9-46
+48        <activity
+48-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:14:9-22:20
+49            android:name="com.example.panglead.MainActivity"
+49-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:15:13-41
+50            android:exported="true" >
+50-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:16:13-36
+51            <intent-filter>
+51-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:17:13-21:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:18:17-69
+52-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:18:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:20:17-77
+54-->C:\Users\MilkLily\AndroidStudioProjects\PangleAD\app\src\main\AndroidManifest.xml:20:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <meta-data
+58-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:35:9-37:1486
+59            android:name="ZEUS_PLUGIN_PANGLE"
+59-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:36:13-46
+60            android:value="{                 apiVersionCode:4308,                 packageName:com.byted.pangle,                 minPluginVersion:4308,                 internalPath:103079868,                 internalVersionCode:4308,                 signature:&apos;MIIDfTCCAmWgAwIBAgIEfRwYPjANBgkqhkiG9w0BAQsFADBvMQswCQYDVQQGEwJDTjEQMA4GA1UECBMHQmVpamluZzEQMA4GA1UEBxMHQmVpamluZzESMBAGA1UEChMJQnl0ZURhbmNlMQ8wDQYDVQQLEwZQYW5nbGUxFzAVBgNVBAMTDkNodWFuIFNoYW4gSmlhMB4XDTIxMTEwODA2MjQzOVoXDTQ2MTEwMjA2MjQzOVowbzELMAkGA1UEBhMCQ04xEDAOBgNVBAgTB0JlaWppbmcxEDAOBgNVBAcTB0JlaWppbmcxEjAQBgNVBAoTCUJ5dGVEYW5jZTEPMA0GA1UECxMGUGFuZ2xlMRcwFQYDVQQDEw5DaHVhbiBTaGFuIEppYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIBKeRL+4mfCn1SLYv6OemfwwItkjlLPyqOEugkV6lanFTcZgLwEl5LIkL0y28UncPtMX1Mii6DzCdJ/plw7S9+RT/hYDneu339IKWojaU2qai/5FokHlQ0MMnYl5yry00ghVPsl1u+03cQA2ZnjIMiFhrBJpQzHt7IYvq2aEEMBcY8uT7iFoBI848e1mL1joVS2z02C3NliP7ZNARkXH+rTQAlCJulT5IZk+V/PTaKqzgNrkhsKh0/tBmU7m8u79x/xpgGsE19H18AgS4P/9/MDCRe2Z35boZeccaUy2MXCwv3djzUcDk3rRzQPYzdpyyRnrFMuhiKesc5VHgUMs9kCAwEAAaMhMB8wHQYDVR0OBBYEFENENrNWGzc2WhxdvhoMDs57U70zMA0GCSqGSIb3DQEBCwUAA4IBAQAHqDCrmvyBBmIGXwuL1rwS/Qv9ZJIZykBIaNMm+H1IfitCl4yXd9N2n+PjE0UZtxZ21UZOt9wAr+RFiSl5YRXqpt7WLARTy4YW3RiQ+wiL7bshzeSYBoSiC427Bfeq0WjwY0/jHlr8uouppyJOz++6U9hrYX2EW/6UjH5XlWiKQJ6b2ZzPcP8Xpg/TJn4tWvXJP6jw9kRRP2GmMttY78leWQst2QEZILmWJubXRLPj9O+qx2uP9oGTD4sc1vb9hzkOHBIHzGaalqLFbbGaeFpLFHoGTsnOfPTwUVKDZYmxbkcmR1bp7eYOW+nSQNMLn0FjDewZl5l37Sa/gz0WVHon&apos;             }" />
+60-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:37:13-1483
+61
+62        <activity
+62-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:39:9-44:70
+63            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity"
+63-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:40:13-92
+64            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+64-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:41:13-85
+65            android:exported="false"
+65-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:42:13-37
+66            android:launchMode="standard"
+66-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:43:13-42
+67            android:windowSoftInputMode="adjustResize|stateHidden" />
+67-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:44:13-67
+68        <activity
+68-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:45:9-51:70
+69            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity"
+69-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:46:13-101
+70            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+70-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:47:13-85
+71            android:exported="false"
+71-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:48:13-37
+72            android:launchMode="standard"
+72-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:49:13-42
+73            android:screenOrientation="portrait"
+73-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:50:13-49
+74            android:windowSoftInputMode="adjustResize|stateHidden" />
+74-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:51:13-67
+75        <activity
+75-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:52:9-58:70
+76            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity_T"
+76-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:53:13-94
+77            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+77-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:54:13-85
+78            android:exported="false"
+78-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:55:13-37
+79            android:launchMode="standard"
+79-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:56:13-42
+80            android:theme="@android:style/Theme.Translucent"
+80-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:57:13-61
+81            android:windowSoftInputMode="adjustResize|stateHidden" />
+81-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:58:13-67
+82        <activity
+82-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:59:9-65:70
+83            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Landscape_Activity"
+83-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:60:13-102
+84            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+84-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:61:13-85
+85            android:exported="false"
+85-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:62:13-37
+86            android:launchMode="standard"
+86-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:63:13-42
+87            android:screenOrientation="landscape"
+87-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:64:13-50
+88            android:windowSoftInputMode="adjustResize|stateHidden" />
+88-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:65:13-67
+89        <activity
+89-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:66:9-70:70
+90            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_Activity"
+90-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:67:13-83
+91            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+91-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:68:13-85
+92            android:exported="false"
+92-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:69:13-37
+93            android:windowSoftInputMode="adjustResize|stateHidden" />
+93-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:70:13-67
+94        <activity
+94-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:71:9-77:70
+95            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity_T"
+95-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:72:13-96
+96            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+96-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:73:13-85
+97            android:exported="false"
+97-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:74:13-37
+98            android:launchMode="singleTask"
+98-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:75:13-44
+99            android:theme="@android:style/Theme.Translucent"
+99-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:76:13-61
+100            android:windowSoftInputMode="adjustResize|stateHidden" />
+100-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:77:13-67
+101        <activity
+101-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:78:9-83:70
+102            android:name="com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity"
+102-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:79:13-94
+103            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+103-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:80:13-85
+104            android:exported="false"
+104-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:81:13-37
+105            android:launchMode="singleTask"
+105-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:82:13-44
+106            android:windowSoftInputMode="adjustResize|stateHidden" />
+106-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:83:13-67
+107
+108        <provider
+108-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:85:9-89:45
+109            android:name="com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager"
+109-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:86:13-91
+110            android:authorities="com.example.panglead.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost"
+110-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:87:13-118
+111            android:exported="false"
+111-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:88:13-37
+112            android:process=":downloader" />
+112-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:89:13-42
+113        <provider
+113-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:90:9-93:40
+114            android:name="com.bytedance.sdk.openadsdk.stub.server.MainServerManager"
+114-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:91:13-85
+115            android:authorities="com.example.panglead.pangle.servermanager.main"
+115-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:92:13-77
+116            android:exported="false" />
+116-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:93:13-37
+117        <provider
+117-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:94:9-97:40
+118            android:name="com.bytedance.pangle.servermanager.MainServerManager"
+118-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:95:13-80
+119            android:authorities="com.example.panglead.pangle.servermanager.main"
+119-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:96:13-77
+120            android:exported="false" />
+120-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:97:13-37
+121        <provider
+121-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:98:9-101:40
+122            android:name="com.bytedance.pangle.provider.MainProcessProviderProxy"
+122-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:99:13-82
+123            android:authorities="com.example.panglead.pangle.provider.proxy.main"
+123-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:100:13-78
+124            android:exported="false" />
+124-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:101:13-37
+125
+126        <activity android:name="com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity" />
+126-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:103:9-110
+126-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:103:19-107
+127        <activity android:name="com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity" />
+127-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:104:9-107
+127-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:104:19-104
+128        <activity
+128-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:105:9-108:75
+129            android:name="com.ss.android.downloadlib.activity.TTDelegateActivity"
+129-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:106:13-82
+130            android:launchMode="singleTask"
+130-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:107:13-44
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:108:13-72
+132        <activity
+132-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:109:9-112:75
+133            android:name="com.ss.android.downloadlib.activity.JumpKllkActivity"
+133-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:110:13-80
+134            android:launchMode="singleTask"
+134-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:111:13-44
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:112:13-72
+136
+137        <receiver android:name="com.ss.android.downloadlib.core.download.DownloadReceiver" /> <!-- APP DOWNLOADER START -->
+137-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:114:9-94
+137-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:114:19-91
+138        <service android:name="com.ss.android.socialbase.appdownloader.DownloadHandlerService" /> <!-- <receiver android:name="com.ss.android.socialbase.appdownloader.DownloadReceiver"> -->
+138-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:115:9-98
+138-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:115:18-95
+139        <!-- <intent-filter> -->
+140        <!-- <action android:name="android.intent.action.BOOT_COMPLETED"/> -->
+141        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+142        <!-- <action android:name="android.ss.intent.action.DOWNLOAD_COMPLETE"/> -->
+143        <!-- </intent-filter> -->
+144        <!-- <intent-filter> -->
+145        <!-- <action android:name="android.intent.action.PACKAGE_ADDED"/> -->
+146        <!-- <action android:name="android.intent.action.PACKAGE_REPLACED"/> -->
+147        <!-- <data android:scheme="package"/> -->
+148        <!-- </intent-filter> -->
+149        <!-- <intent-filter> -->
+150        <!-- <action android:name="android.intent.action.MEDIA_MOUNTED"/> -->
+151        <!-- <data android:scheme="file"/> -->
+152        <!-- </intent-filter> -->
+153        <!-- </receiver> -->
+154        <activity
+154-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:131:9-134:59
+155            android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"
+155-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:132:13-99
+156            android:launchMode="singleTask"
+156-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:133:13-44
+157            android:theme="@android:style/Theme.Dialog" />
+157-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:134:13-56
+158        <activity
+158-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:135:9-138:59
+159            android:name="com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"
+159-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:136:13-98
+160            android:launchMode="singleTask"
+160-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:137:13-44
+161            android:theme="@android:style/Theme.Dialog" />
+161-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:138:13-56
+162
+163        <service
+163-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:140:9-144:72
+164            android:name="com.ss.android.socialbase.appdownloader.RetryJobSchedulerService"
+164-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:141:13-92
+165            android:enabled="true"
+165-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:142:13-35
+166            android:exported="false"
+166-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:143:13-37
+167            android:permission="android.permission.BIND_JOB_SERVICE" />
+167-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:144:13-69
+168        <service
+168-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:145:9-152:19
+169            android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"
+169-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:146:13-109
+170            android:exported="false"
+170-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:147:13-37
+171            android:process=":downloader" >
+171-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:148:13-42
+172            <intent-filter>
+172-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:149:13-151:29
+173                <action android:name="com.ss.android.socialbase.downloader.remote" />
+173-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:150:17-86
+173-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:150:25-83
+174            </intent-filter>
+175        </service>
+176        <service android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" />
+176-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:153:9-113
+176-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:153:18-110
+177        <service android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" />
+177-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:154:9-99
+177-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:154:18-96
+178        <service android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService" /> <!-- <receiver android:name="com.ss.android.socialbase.downloader.downloader.DownloadReceiver"> -->
+178-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:155:9-100
+178-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:155:18-97
+179        <!-- <intent-filter> -->
+180        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+181        <!-- </intent-filter> -->
+182        <!-- </receiver> -->
+183        <!-- 数据库更新service -->
+184        <service android:name="com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService" />
+184-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:161:9-107
+184-->[com.pangle.cn:ads-sdk-pro:4.3.0.8] C:\Users\MilkLily\AndroidStudioProjects\Test_1\caches\transforms-3\95756d4941565f93e01e853d192cb508\transformed\jetified-ads-sdk-pro-4.3.0.8\AndroidManifest.xml:161:18-104
+185    </application>
+186
+187</manifest>
